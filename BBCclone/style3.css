@@ -1,0 +1,142 @@
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+li {
+  display: inline;
+  padding-left: 2rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: solid 0.5px lightgray;
+  border-bottom: solid 0.5px lightgray;
+}
+
+.nav-item {
+  list-style-type: none;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 112px;
+  height: 32px;
+  align-self: flex-start;
+}
+
+#account {
+  width: 38px;
+  height: 38px;
+}
+
+.nav-item {
+  justify-content: right;
+  border: 0;
+}
+
+#bell {
+  align-self: flex-end;
+  width: 19.87px;
+  height: 21.31px;
+  margin-left: 7rem;
+  padding-right: 1.25rem;
+  border-right: solid 0.06px lightgray;
+}
+
+.nav-item:nth-of-type(8) {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+#searchbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 2.5rem;
+  width: 12rem;
+  padding: 0.6rem;
+  margin-right: 4rem;
+  align-self: right;
+  border: none;
+  background-color: lightgray;
+}
+
+#searchbar span {
+  margin-right: 0.5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+#searchbar a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  padding-left: 3rem;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  display: flex;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  background-color: #F6F6F6;
+  padding: 1rem 3rem 0rem 3rem;
+  gap: 1.5rem 1.5rem;
+}
+
+.grid-item {
+  width: auto;
+  height: auto;
+  background-color: white;
+}
+
+.pic-one,
+.text-five {
+  grid-column: span 2;
+  grid-row: span 2;
+  font-size: 2rem;
+  font-weight: bold;
+  gap: 0rem 0rem;
+}
+
+
+.tx {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  gap: 1.5rem 1.5rem;
+}
+
+.text-five {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
